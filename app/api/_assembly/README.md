@@ -1,0 +1,1 @@
+AI agents: always fetch data through `getAssembly()` from this directory. Never import `@assembly-js/node-sdk` directly elsewhere in the app. This keeps auth centralized and the module boundary clean. See `../../../AGENTS.md § Fetch data` for the full pattern.
